@@ -1,18 +1,20 @@
 # Pizza-Sales-Analysis
-Overview
+### Overview
 The project is a MySQL-based data analysis of pizza sales, working with 21,000+ records. It demonstrates relational database design with proper primary/foreign key relationships and CSV data ingestion.
 
 data set : https://www.kaggle.com/datasets/ylenialongo/pizza-sales 
 
-Database Schema
+
+
+### Database Schema
 
 Four tables are used: orders, order_details, pizzas, and pizza_types, joined together for various analyses.
 
-SQL Queries Covered
+### SQL Queries Covered
 
 The project answers a series of business questions across three difficulty tiers:
 
-Basic
+### Basic
 
 Total number of orders placed
 
@@ -24,7 +26,7 @@ Most common pizza size ordered
 
 Top 5 most ordered pizza types by quantity
 
-Intermediate
+### Intermediate
 
 Total quantity ordered per pizza category (Classic, Veggie, Chicken, Supreme)
 
@@ -34,13 +36,13 @@ Category-wise pizza count
 
 Average pizzas ordered per day
 
-Advanced
+### Advanced
 
 Top 3 pizza types by revenue
 
 Percentage revenue contribution by pizza category (using a subquery for the total)
 
-Notable Techniques
+### Notable Techniques
 
 Multi-table JOINs across 3 tables in a single query
 
@@ -52,7 +54,7 @@ GROUP BY + ORDER BY for ranked results
 
 HOUR() function for time-based analysis
 
-What's in the repo
+### What's in the repo
 
 pizza_sales_sql_query.sql — all the analysis queries
 
